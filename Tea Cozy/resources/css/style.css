@@ -1,0 +1,196 @@
+* {
+display: flex;
+font-family: Helvetica;
+color: seashell;
+background-color: black;
+flex-flow: column nowrap;
+opacity: 0.9;
+}
+
+div {
+display: flex;
+}
+
+
+/*HEADER ICI*/
+.container {
+width: 100%;
+align-items: center;
+z-index: 20;
+padding-top: 0px;
+font-family: Helvetica;
+height: 69px;
+position: fixed;
+/*flex-direction: row;*/
+flex-flow: row nowrap;
+border-bottom: 1px solid seashell;
+/*align-content: left;
+justify-content: center;*/
+opacity: 1;
+background-color: black;
+color: seashell;
+}
+nav {
+margin-left: 300px;
+height: 69px;
+width: 1000px;
+flex-flow: row;
+}
+nav span{
+display: inline-flex;
+flex-direction: wrap;
+font-size: 22px;
+font-family: Helvetica;
+padding: 10px 10px;
+align-content: right;
+}
+a {
+display: flex;
+flex-direction: row nowrap;
+padding: 5px 10px;
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+
+
+/*CONTENU*/
+.content  {
+position: relative;
+top: 0px;
+text-align: center;
+margin: 0px 22px;
+height: auto;
+opacity: 0.9;
+z-index: 2;
+}
+/*MISSION*/
+.mission  {
+display: flex;
+margin: 68px 20px 20px 20px;
+width: auto;
+height: 700px;
+justify-content: center;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+font-size: 22px;
+}
+
+
+/*THES DU MOIS*/
+.month {
+display: flex;
+font-size: 22px;
+width: 1200px;
+height: 700px;
+justify-content: center;
+margin: auto;
+}
+.monthtitle {
+padding: 5px;
+font-size: 22px;
+}
+.monthlist {
+max-width: 1200px;
+height: 700px;
+flex-flow: row wrap;
+justify-content: center;
+align-content: space-around;
+}
+.monthitem1,
+.monthitem2,
+.monthitem3,
+.monthitem4,
+.monthitem5 {
+padding: 30px;
+}
+.monthimage{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+/*LOCATIONS ICI*/
+.biglocation  {
+font-size: 22px;
+display: flex;
+position: relative;
+flex-flow: row wrap;
+flex-direction: column wrap;
+color: seashell;
+justify-content: space-around;
+align-content: flex-start;
+align-items: stretch;
+margin: 20px 45px;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+background-size: stretch;
+padding-top: 50px;
+height: 500px;
+z-index: 16;
+}
+
+.biglocation h2 {
+font-size: 33px;
+font-family: Helvetica;
+display: flex;
+color: seashell;
+background-color: 0%;
+opacity: 0.9;
+justify-content: center;
+align-self: center;
+text-align: center;
+break-after: auto;
+margin-left: 450px;
+margin-right: 450px;
+z-index: 18;
+}
+
+
+.location1,
+.location2,
+.location3 {
+font-family: Helvetica sans-serif;
+font-size: 22px;
+display: flex;
+background-color: black;
+opacity: 1;
+flex-direction: column wrap;
+max-width: 300px;
+max-height: 300px;
+flex-basis: 300px;
+flex-grow: 1;
+margin: 15px 20px 100px 20px;
+align-items: space-between;
+justify-content: space-around;
+z-index: 17;
+}
+
+
+
+/*DESSOUS - ADRESSE*/
+.contact  {
+display: flex;
+height: 200px;
+font-size: 22px;
+}
+.contact h5,
+.contact h2 {
+display: flex;
+}
+
+/*FOOTER*/
+footer{
+display: flex;
+padding-left: 20px;
+text-align: left;
+font-size: 22px;
+}
